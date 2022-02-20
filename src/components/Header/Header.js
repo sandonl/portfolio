@@ -9,6 +9,7 @@ import {
   Div2,
   Div3,
   NavLink,
+  Span,
   SocialIcons,
 } from "./HeaderStyles";
 
@@ -16,8 +17,15 @@ const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <DiCssdeck size="3rem" /> <span>Sandon Lai</span>
+        <a
+          style={{
+            display: "flex",
+            alignItems: "center",
+            color: "white",
+            marginBottom: "20px",
+          }}
+        >
+          <DiCssdeck size="3rem" /> <Span>Sandon Lai</Span>
         </a>
       </Link>
     </Div1>
