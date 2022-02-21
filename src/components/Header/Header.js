@@ -47,10 +47,16 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/sandonl">
+      <SocialIcons
+        onClick={() => window.open("https://github.com/sandonl", "_blank")}
+      >
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://linkedin.com/sandonl">
+      <SocialIcons
+        onClick={() =>
+          window.open("https://linkedin.com/in/sandonlai", "_blank")
+        }
+      >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
       <SocialIcons href="sandonl@outlook.com.au">
