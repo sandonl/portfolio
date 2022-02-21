@@ -1,4 +1,4 @@
-export const headerImage = "images/header.png";
+export const heroImage = "images/header.png";
 export const projects = [
   {
     title: "CoffeeShuffle",

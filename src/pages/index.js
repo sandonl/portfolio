@@ -6,15 +6,15 @@ import Technologies from "../components/Technologies/Technologies";
 import Timeline from "../components/TimeLine/TimeLine";
 import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
-import { headerImage } from "../constants/constants";
-import { HeaderImg } from "../components/Header/HeaderStyles";
+import { heroImage } from "../constants/constants";
+import { HeroImg } from "../components/Hero/HeroStyles";
 
 const Home = () => {
   return (
     <Layout>
       <Section grid style={{ overflow: "visible" }}>
         <Hero />
-        <HeaderImg src={headerImage} />
+        <HeroImg src={heroImage} />
         <BgAnimation />
       </Section>
       <Projects />
