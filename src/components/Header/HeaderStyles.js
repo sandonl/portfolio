@@ -1,6 +1,14 @@
 import { IoIosArrowDropdown } from "react-icons/io";
 import styled from "styled-components";
 
+export const HeaderImg = styled.img`
+  width: 60%;
+  height: 80%;
+  zindex: 2;
+  position: absolute;
+  transform: translateX(850px) translateY(50px);
+`;
+
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);

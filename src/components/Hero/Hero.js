@@ -4,8 +4,8 @@ import {
   Section,
   SectionText,
   SectionTitle,
-  Img,
 } from "../../styles/GlobalComponents";
+import { HeaderImg } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
@@ -14,19 +14,18 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Hi there! <br />
-        I'm Sandon, a Full-Stack Developer from Melbourne
+        I'm Sandon, <br />a Full-Stack Developer from Melbourne
       </SectionTitle>
       <SectionText>
-        An aspiring developer interested in the Web-App Development and the
-        Metaverse!
+        An aspiring developer interested in the Web-App Development <br />
+        and the Metaverse!
       </SectionText>
       <Button
         onClick={() => window.open("https://github.com/sandonl", "_blank")}
       >
-        Learn More
+        My GitHub
       </Button>
     </LeftSection>
-    {/* <Img src={"/image/header.png"} /> */}
   </Section>
 );
 
