@@ -7,7 +7,7 @@ export const projects = [
     image: "/images/selfcare.png",
     tags: ["Kotlin", "Jetpack Compose", "ARCore", "Firebase"],
     source: "https://github.com/sandonl/COMP90018-selfcare-app",
-    visit: "https://github.com/sandonl/COMP90018-selfcare-app",
+    visit: "https://www.youtube.com/watch?v=GPYu5J2qS6I&t",
     id: 0,
   },
   {
@@ -30,16 +30,16 @@ export const projects = [
     visit: "https://github.com/erickteowarang/geom90007-assignment3",
     id: 2,
   },
-  {
-    title: "Interactive Whiteboard",
-    description:
-      "A project that involved creating a distributed and interactive whiteboard in which users can connect and draw interactively with each other",
-    image: "/images/whiteboard.png",
-    tags: ["Java", "JavaRMI", "Java Swing"],
-    source: "https://github.com/sandonl/distributed-whiteboard",
-    visit: "https://github.com/sandonl/distributed-whiteboard",
-    id: 3,
-  },
+  // {
+  //   title: "Interactive Whiteboard",
+  //   description:
+  //     "A project that involved creating a distributed and interactive whiteboard in which users can connect and draw interactively with each other",
+  //   image: "/images/whiteboard.png",
+  //   tags: ["Java", "JavaRMI", "Java Swing"],
+  //   source: "https://github.com/sandonl/distributed-whiteboard",
+  //   visit: "https://github.com/sandonl/distributed-whiteboard",
+  //   id: 3,
+  // },
 ];
 
 export const TimeLineData = [
