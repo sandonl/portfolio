@@ -17,7 +17,7 @@ export const projects = [
     image: "/images/openlingo.png",
     tags: ["jinja", "Flask", "neo4j"],
     source: "https://github.com/jjkuang123/Technology-Innovation-Project",
-    visit: "https://github.com/jjkuang123/Technology-Innovation-Project",
+    visit: "https://www.youtube.com/watch?v=1f6BDFK9Fsg&t",
     id: 1,
   },
   {
@@ -25,7 +25,7 @@ export const projects = [
     description:
       "An information visualisation that targets new tourists of Melbourne but can be used by anyone living in Melbourne to plan their visits with better ease and to account for a better holistic visiting experience.",
     image: "/images/MelbourneGuide.png",
-    tags: ["React", "ChakraUI", "yarn"],
+    tags: ["React", "ChakraUI", "Mapbox", "Google Maps API"],
     source: "https://github.com/erickteowarang/geom90007-assignment3",
     visit: "https://github.com/erickteowarang/geom90007-assignment3",
     id: 2,

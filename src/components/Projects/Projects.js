@@ -45,7 +45,12 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={visit}>Visit</ExternalLinks>
+              <ExternalLinks onClick={() => window.open(visit, "_blank")}>
+                Visit
+              </ExternalLinks>
+              <ExternalLinks onClick={() => window.open(source, "_blank")}>
+                Source
+              </ExternalLinks>
             </UtilityList>
           </BlogCard>
         )

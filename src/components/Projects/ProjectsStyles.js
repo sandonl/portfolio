@@ -91,6 +91,7 @@ export const ExternalLinks = styled.a`
   transition: 0.5s;
   &:hover {
     background: #ad8bd7;
+    cursor: pointer;
   }
 `;
 
