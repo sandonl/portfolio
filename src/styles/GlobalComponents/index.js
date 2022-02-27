@@ -59,7 +59,7 @@ export const SectionTitle = styled.h2`
 `;
 
 export const SectionText = styled.p`
-  max-width: 800px;
+  max-width: 1000px;
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
@@ -125,7 +125,7 @@ export const SecondaryBtn = styled.button`
   background: none;
   border: 1px solid rgba(255, 255, 255, 0.33);
   box-sizing: border-box;
-  border-radius: 999px;
+  border-radius: 5px;
   padding: 16px 24px;
   font-weight: 600;
   font-size: 18px;

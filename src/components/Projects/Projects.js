@@ -20,8 +20,6 @@ import {
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
-// console.log(projects);
-
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
@@ -36,8 +34,9 @@ const Projects = () => (
               <Hr />
             </TitleContent>
             <CardInfo>{description}</CardInfo>
+            <br />
             <div>
-              <TitleContent>Stack</TitleContent>
+              <h5>Stack</h5>
               <TagList>
                 {tags.map((tag, i) => (
                   <Tag key={i}>{tag}</Tag>

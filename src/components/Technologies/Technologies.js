@@ -6,6 +6,7 @@ import {
   DiReact,
   DiZend,
 } from "react-icons/di";
+import { CgFigma } from "react-icons/cg";
 import {
   Section,
   SectionDivider,
@@ -23,12 +24,13 @@ import {
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
-    <br />
-    <SectionTitle style={{ marginTop: "20px" }}>Technologies</SectionTitle>
+    <SectionTitle style={{ marginTop: "2rem" }}>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of technologies in the app development space,
       from the back-end (AWS Services, Node) to the front-end (React) and design
       (Figma)
+      <br />
+      Also currently learning: GraphQL and Typescript
     </SectionText>
     <List>
       <ListItem>
@@ -37,7 +39,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            React.js, MaterialUI, ChakraUI
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -53,7 +55,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiCodeBadge size="3rem" />
+        <CgFigma size="3rem" />
         <ListContainer>
           <ListTitle>UI/ UX</ListTitle>
           <ListParagraph>

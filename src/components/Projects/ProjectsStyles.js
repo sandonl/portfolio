@@ -5,6 +5,7 @@ export const Img = styled.img`
   height: 100%;
   object-fit: cover;
   overflow: hidden;
+  border-radius: 10px 10px 0 0;
 `;
 
 export const GridContainer = styled.section`
@@ -22,6 +23,7 @@ export const GridContainer = styled.section`
   }
 `;
 export const BlogCard = styled.div`
+  background-color: #1c2841;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #000000;
   text-align: center;
@@ -31,25 +33,26 @@ export const BlogCard = styled.div`
   }
 `;
 export const TitleContent = styled.div`
-  text-align: center;
+  padding: 10px 50px;
+  text-align: left;
   z-index: 20;
   width: 100%;
 `;
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: #9cc9e3;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   font-size: ${(props) => (props.title ? "3rem" : "2rem")};
 `;
 
 export const Hr = styled.hr`
-  width: 50px;
+  width: 100%;
   height: 3px;
-  margin: 20px auto;
+  margin: 10px auto;
   border: 0;
-  background: #d0bb57;
+  background: #293a5c;
 `;
 
 export const Intro = styled.div`
@@ -68,7 +71,7 @@ export const CardInfo = styled.p`
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
+  text-align: left;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.3rem;
   }
@@ -87,7 +90,7 @@ export const ExternalLinks = styled.a`
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
   background: #945dd6;
-  border-radius: 15px;
+  border-radius: 5px;
   transition: 0.5s;
   &:hover {
     background: #ad8bd7;
