@@ -39,7 +39,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js, MaterialUI, ChakraUI
+            React.js, HTML, CSS, JS
           </ListParagraph>
         </ListContainer>
       </ListItem>

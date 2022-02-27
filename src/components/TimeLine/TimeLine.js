@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 
+import { FaAws } from "react-icons/fa";
 import {
   CarouselButton,
   CarouselButtonDot,
@@ -67,12 +68,16 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionDivider />
       <SectionTitle style={{ marginTop: "20px" }}> About Me </SectionTitle>
       <SectionText>
         I'm a Master of IT (Computing) student from the University of Melbourne
-        and also a past intern at AWS (Amazon Web Services). In my spare time I
-        learn Korean
+        and also a past intern at
+        <FaAws
+          style={{ marginLeft: "1rem", marginTop: "1px", marginRight: "1rem" }}
+        />
+        (Amazon Web Services).
+        <br />
+        In my spare time I also learn Korean!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

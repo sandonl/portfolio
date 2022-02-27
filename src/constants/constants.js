@@ -23,11 +23,11 @@ export const projects = [
   {
     title: "Melbourne City Guide",
     description:
-      "An information visualisation that targets new tourists of Melbourne but can be used by anyone living in Melbourne to plan their visits with better ease and to account for a better holistic visiting experience.",
+      "A visualisation that targets new tourists of Melbourne but can be used by anyone living in Melbourne to plan their visits with better ease and to account for a better holistic visiting experience.",
     image: "/images/MelbourneGuide.png",
     tags: ["React", "ChakraUI", "Mapbox", "Google Maps API"],
     source: "https://github.com/erickteowarang/geom90007-assignment3",
-    visit: "https://github.com/erickteowarang/geom90007-assignment3",
+    visit: "https://mystifying-jennings-d097dc.netlify.app/",
     id: 2,
   },
   // {

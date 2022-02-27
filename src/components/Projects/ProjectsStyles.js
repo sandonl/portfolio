@@ -79,7 +79,7 @@ export const CardInfo = styled.p`
 
 export const UtilityList = styled.ul`
   list-style-type: none;
-  padding: 0;
+  padding: 0 50px;
   display: flex;
   justify-content: space-around;
   margin: 2.5rem 0;
