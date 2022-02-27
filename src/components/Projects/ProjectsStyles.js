@@ -23,7 +23,7 @@ export const GridContainer = styled.section`
   }
 `;
 export const BlogCard = styled.div`
-  background-color: #1c2841;
+  background-color: #212d45;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #000000;
   text-align: center;

@@ -68,6 +68,7 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider />
       <SectionTitle style={{ marginTop: "20px" }}> About Me </SectionTitle>
       <SectionText>
         I'm a Master of IT (Computing) student from the University of Melbourne
@@ -146,7 +147,6 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

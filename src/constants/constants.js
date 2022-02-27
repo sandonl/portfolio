@@ -49,11 +49,11 @@ export const TimeLineData = [
   },
   {
     year: 2020,
-    text: "Started studying my Master's of IT at the University of Melbourne",
+    text: "Started studying my Master of IT at the University of Melbourne",
   },
   { year: 2021, text: "Professional Services Intern at AWS" },
   {
     year: 2022,
-    text: "Expected Graduation from the University of Melbourne, Focusing on learning: GraphQL, Typescript and creating more projects",
+    text: "Expected Graduation from the University of Melbourne, Teaching Associate at Monash University.",
   },
 ];

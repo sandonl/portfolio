@@ -27,10 +27,10 @@ const Technologies = () => (
     <SectionTitle style={{ marginTop: "2rem" }}>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of technologies in the app development space,
-      from the back-end (AWS Services, Node) to the front-end (React) and design
-      (Figma)
+      experience developing from the back-end (AWS Services, Node) to the
+      front-end (React) as well as the design (Figma)
       <br />
-      Also currently learning: GraphQL and Typescript
+      I'm currently focused on learning: GraphQL and Typescript
     </SectionText>
     <List>
       <ListItem>
@@ -49,7 +49,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            AWS Services <br />
+            AWS Services and Node.js <br />
             (Lambda, NeptuneDB, S3, Amplify)
           </ListParagraph>
         </ListContainer>

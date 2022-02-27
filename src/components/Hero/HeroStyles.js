@@ -24,4 +24,11 @@ export const HeroImg = styled.img`
   zindex: 2;
   position: absolute;
   transform: translateX(850px) translateY(50px);
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: none;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    display: none;
+  }
 `;

@@ -17,7 +17,7 @@ const Hero = (props) => (
         I'm Sandon, <br />a Full-Stack Developer from Melbourne
       </SectionTitle>
       <SectionText>
-        An aspiring developer interested in Web-App Development <br />
+        I'm interested in Web-App Development <br />
         and the Metaverse space!
       </SectionText>
       <Button

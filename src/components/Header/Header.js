@@ -22,10 +22,9 @@ const Header = () => (
             display: "flex",
             alignItems: "center",
             color: "white",
-            marginBottom: "17px",
           }}
         >
-          <DiCssdeck size="3rem" /> <Span>Sandon Lai</Span>
+          <DiCssdeck size="2.5rem" /> <Span>Sandon Lai</Span>
         </a>
       </Link>
     </Div1>
@@ -50,17 +49,17 @@ const Header = () => (
       <SocialIcons
         onClick={() => window.open("https://github.com/sandonl", "_blank")}
       >
-        <AiFillGithub size="3rem" />
+        <AiFillGithub size="2.5rem" />
       </SocialIcons>
       <SocialIcons
         onClick={() =>
           window.open("https://linkedin.com/in/sandonlai", "_blank")
         }
       >
-        <AiFillLinkedin size="3rem" />
+        <AiFillLinkedin size="2.5rem" />
       </SocialIcons>
       <SocialIcons href="sandonl@outlook.com.au">
-        <AiFillMail size="3rem" />
+        <AiFillMail size="2.5rem" />
       </SocialIcons>
     </Div3>
   </Container>
