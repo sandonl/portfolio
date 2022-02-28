@@ -71,14 +71,14 @@ const Timeline = () => {
       <SectionDivider />
       <SectionTitle style={{ marginTop: "20px" }}> About Me </SectionTitle>
       <SectionText>
-        I'm a Master of IT (Computing) student from the University of Melbourne
-        and also a past intern at
+        I'm a Masters of IT student majoring in Computing from the University of
+        Melbourne and also a past intern at
         <FaAws
           style={{ marginLeft: "1rem", marginTop: "1px", marginRight: "1rem" }}
         />
         (Amazon Web Services).
         <br />
-        In my spare time I also learn Korean!
+        In my spare time I also enjoy learning Korean!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

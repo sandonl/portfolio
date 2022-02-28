@@ -25,7 +25,7 @@ export const projects = [
     description:
       "A visualisation that targets new tourists of Melbourne but can be used by anyone living in Melbourne to plan their visits with better ease and to account for a better holistic visiting experience.",
     image: "/images/MelbourneGuide.png",
-    tags: ["React", "ChakraUI", "Mapbox", "Google Maps API"],
+    tags: ["React", "ChakraUI", "Mapbox", "Google Maps"],
     source: "https://github.com/erickteowarang/geom90007-assignment3",
     visit: "https://mystifying-jennings-d097dc.netlify.app/",
     id: 2,
@@ -49,11 +49,11 @@ export const TimeLineData = [
   },
   {
     year: 2020,
-    text: "Started studying my Master of IT at the University of Melbourne",
+    text: "Started studying my Masters Degree at the University of Melbourne",
   },
   { year: 2021, text: "Professional Services Intern at AWS" },
   {
     year: 2022,
-    text: "Expected Graduation from the University of Melbourne, Teaching Associate at Monash University.",
+    text: "Current Teaching Associate at Monash University. Expected Graduation from the University of Melbourne.",
   },
 ];

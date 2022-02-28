@@ -44,9 +44,7 @@ const Footer = () => {
           <AiFillLinkedin size="2.5rem" />
         </SocialIcons>
       </SocialIconsContainer>
-      <h6 style={{ padding: "1rem" }}>
-        This site was built with Next.js and Hosted on Netlify
-      </h6>
+      <h6>This site was built with Next.js and Deployed on Netlify</h6>
     </FooterWrapper>
   );
 };
