@@ -33,8 +33,8 @@ export const BlogCard = styled.div`
   }
 `;
 export const TitleContent = styled.div`
-  padding: 10px 50px;
-  text-align: left;
+  padding: 10px 3rem;
+  text-align: center;
   z-index: 20;
   width: 100%;
 `;
@@ -67,13 +67,13 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  padding: 0 4rem;
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
   text-align: left;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.3rem;
+    padding: 0 2rem;
   }
 `;
 
