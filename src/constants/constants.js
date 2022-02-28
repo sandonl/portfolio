@@ -1,7 +1,7 @@
 export const heroImage = "images/header.png";
 export const projects = [
   {
-    title: "Self Care",
+    title: "SelfCare",
     description:
       "An android app that enhances personal self-care and utilises AR technology to engage the user with the outside world",
     image: "/images/selfcare.png",

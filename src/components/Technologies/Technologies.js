@@ -39,7 +39,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js, HTML, CSS, JS
+            React.js, Next.js, HTML, CSS, JS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -49,8 +49,8 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            AWS Services and Node.js <br />
-            (Lambda, NeptuneDB, S3, Amplify)
+            SQL, Express and AWS Services <br />
+            (Lambda, Cognito, API Gateway, S3, Amplify)
           </ListParagraph>
         </ListContainer>
       </ListItem>
