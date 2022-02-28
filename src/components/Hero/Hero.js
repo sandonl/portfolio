@@ -17,8 +17,9 @@ const Hero = (props) => (
         I'm Sandon, <br />a Full-Stack Developer from Melbourne
       </SectionTitle>
       <SectionText>
-        I'm interested in Web-App Development <br />
-        and the Metaverse space!
+        I'm interested in Web-App Development and enjoy <br />
+        building projects of all sorts. <br />
+        I'm also particularly interested in the Metaverse space
       </SectionText>
       <Button
         onClick={() => window.open("https://github.com/sandonl", "_blank")}
