@@ -7,9 +7,15 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>Sandon Lai</title>
         <meta property="og:title" content="Sandon Lai" key="title" />
+        <meta property="og:type" content="website" />
+
         <meta
           property="og:image"
           content="https://raw.githubusercontent.com/sandonl/portfolio/main/readme_image/homepage.png"
+        />
+        <meta
+          property="og:url"
+          content="https://fervent-clarke-790e29.netlify.app/"
         />
       </Head>
       <Theme>
