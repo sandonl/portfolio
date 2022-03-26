@@ -13,10 +13,7 @@ export default function App({ Component, pageProps }) {
           property="og:image"
           content="https://raw.githubusercontent.com/sandonl/portfolio/main/readme_image/homepage.png"
         />
-        <meta
-          property="og:url"
-          content="https://fervent-clarke-790e29.netlify.app/"
-        />
+        <meta property="og:url" content="https://sandonl.netlify.app/" />
       </Head>
       <Theme>
         <Component {...pageProps} />
