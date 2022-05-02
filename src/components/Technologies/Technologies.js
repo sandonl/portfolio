@@ -31,14 +31,14 @@ const Technologies = () => (
       // <br /> */}
     <List>
       <ListItem>
-        <DiReact size="3rem" style={{ alignSelf: "center" }} />
+        <DiReact size="3rem" style={{ alignSelf: "left" }} />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>React, Next.js, HTML, CSS, JS</ListParagraph>
+          <ListParagraph>React.js, Next.js, HTML, CSS, JS</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" style={{ alignSelf: "center" }} />
+        <DiFirebase size="3rem" style={{ alignSelf: "left" }} />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
@@ -48,7 +48,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <CgFigma size="3rem" style={{ alignSelf: "center" }} />
+        <CgFigma size="3rem" style={{ alignSelf: "left" }} />
         <ListContainer>
           <ListTitle>UI/ UX</ListTitle>
           <ListParagraph>Figma</ListParagraph>
