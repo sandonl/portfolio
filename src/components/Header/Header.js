@@ -28,7 +28,7 @@ const Header = () => (
         </a>
       </Link>
     </Div1>
-    <Div2>
+    {/* <Div2>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
@@ -44,7 +44,7 @@ const Header = () => (
           <NavLink>About</NavLink>
         </Link>
       </li>
-    </Div2>
+    </Div2> */}
     <Div3>
       <SocialIcons
         onClick={() => window.open("https://github.com/sandonl", "_blank")}
