@@ -55,9 +55,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
     </List>
-    <SectionText>
-      I'm currently focused on also learning: GraphQL and TypeScript
-    </SectionText>
+    <SectionText>Currently learning: GraphQL and TypeScript</SectionText>
   </Section>
 );
 

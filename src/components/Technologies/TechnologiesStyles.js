@@ -33,7 +33,7 @@ export const MainImage = styled.img`
 
 export const List = styled.ul`
   list-style-type: none;
-  text-align: center;
+  text-align: left;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
@@ -58,6 +58,7 @@ export const List = styled.ul`
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
+  margin-top: 1em;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;

@@ -18,7 +18,7 @@ const Hero = (props) => (
       </SectionTitle>
       <SectionText>
         I'm interested in building innovative projects <br />
-        and also exploring the Web3 Technologies.
+        and also exploring Web3 Technologies.
       </SectionText>
       <Button
         onClick={() => window.open("https://github.com/sandonl", "_blank")}
