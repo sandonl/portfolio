@@ -180,6 +180,7 @@ export const ButtonBack = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   margin: ${({ alt, form }) => (alt || form ? "0" : "0 0 80px")};
   color: #fff;
   background: ${({ alt }) =>

@@ -28,7 +28,7 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>
-            Utilizing technology to innovate one project at a time!
+            <h6>This site was built with Next.js and Deployed on Netlify</h6>
           </Slogan>
         </CompanyContainer>
         <SocialIcons
@@ -44,7 +44,6 @@ const Footer = () => {
           <AiFillLinkedin size="2.5rem" />
         </SocialIcons>
       </SocialIconsContainer>
-      <h6>This site was built with Next.js and Deployed on Netlify</h6>
     </FooterWrapper>
   );
 };

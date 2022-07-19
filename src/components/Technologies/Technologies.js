@@ -23,7 +23,7 @@ import {
 
 const Technologies = () => (
   <Section id="tech">
-    <SectionDivider />
+    <SectionDivider style={{ marginBottom: "1em" }} />
     <SectionTitle style={{ marginTop: "2rem" }}>Technologies</SectionTitle>
     {/* // I've worked with a range of technologies in web-app development including
       // experience developing from the back-end (AWS Services, Node) to the
@@ -56,7 +56,6 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
     </List>
-    {/* <SectionText>Currently learning: GraphQL and TypeScript</SectionText> */}
   </Section>
 );
 
