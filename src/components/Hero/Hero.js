@@ -18,7 +18,7 @@ const Hero = (props) => (
       </SectionTitle>
       <SectionText>
         I'm interested in building innovative projects, exploring the <br />
-        metaspace and learning Korean!
+        metaverse and learning Korean!
       </SectionText>
       <Button
         onClick={() => window.open("https://github.com/sandonl", "_blank")}
