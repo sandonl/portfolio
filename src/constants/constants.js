@@ -11,6 +11,16 @@ export const projects = [
     id: 0,
   },
   {
+    title: "SL Reddit",
+    description:
+      "A fullstack Reddit-inspired post sharing site that utilises React, ChakraUI, TypeScript, GraphQL and more",
+    image: "/images/slreddit.png",
+    tags: ["React", "GraphQL", "TypeScript", "PostgreSQL"],
+    source: "https://github.com/sandonl/sl-redditserver",
+    visit: "https://sandonl.com",
+    id: 1,
+  },
+  {
     title: "OpenLingo",
     description:
       "An innovative online social learning platform developed to enable language learners share and view resources in their target language and skill level.",
@@ -18,28 +28,18 @@ export const projects = [
     tags: ["jinja", "Flask", "neo4j", "Figma"],
     source: "https://github.com/jjkuang123/Technology-Innovation-Project",
     visit: "https://www.youtube.com/watch?v=1f6BDFK9Fsg&t",
-    id: 1,
+    id: 2,
   },
   {
     title: "Melbourne City Guide",
     description:
-      "A visualisation that targets new tourists of Melbourne but can be used by anyone living in Melbourne to plan their visits with better ease and to account for a better holistic visiting experience.",
+      "A visualisation that targets new tourists of Melbourne to plan their visits with better ease and to account for a better holistic visiting experience.",
     image: "/images/MelbourneGuide.png",
     tags: ["React", "ChakraUI", "Mapbox", "Google Maps"],
     source: "https://github.com/erickteowarang/geom90007-assignment3",
     visit: "https://mystifying-jennings-d097dc.netlify.app/",
-    id: 2,
+    id: 3,
   },
-  // {
-  //   title: "Interactive Whiteboard",
-  //   description:
-  //     "A project that involved creating a distributed and interactive whiteboard in which users can connect and draw interactively with each other",
-  //   image: "/images/whiteboard.png",
-  //   tags: ["Java", "JavaRMI", "Java Swing"],
-  //   source: "https://github.com/sandonl/distributed-whiteboard",
-  //   visit: "https://github.com/sandonl/distributed-whiteboard",
-  //   id: 3,
-  // },
 ];
 
 export const TimeLineData = [

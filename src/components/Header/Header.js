@@ -24,7 +24,7 @@ const Header = () => (
             color: "white",
           }}
         >
-          <DiCssdeck size="2.5rem" /> <Span>Sandon Lai</Span>
+          <DiCssdeck size="2.5rem" /> <Span> Sandon Lai</Span>
         </a>
       </Link>
     </Div1>

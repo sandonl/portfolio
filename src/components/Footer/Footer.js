@@ -17,14 +17,14 @@ import {
 const Footer = () => {
   return (
     <FooterWrapper>
-      <LinkList>
+      {/* <LinkList>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:sandonl@outlook.com.au">
             sandonl@outlook.com.au
           </LinkItem>
         </LinkColumn>
-      </LinkList>
+      </LinkList> */}
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>

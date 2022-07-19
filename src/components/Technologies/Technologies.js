@@ -34,7 +34,9 @@ const Technologies = () => (
         <DiReact size="3rem" style={{ alignSelf: "left" }} />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>React.js, Next.js, HTML, CSS, JS</ListParagraph>
+          <ListParagraph>
+            React.js, Next.js, TypeScript, JavaScript, GraphQL
+          </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -42,8 +44,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            SQL, Java, AWS Services <br />
-            (Lambda, NeptuneDB, Cognito, API Gateway, S3, Amplify)
+            PostgreSQL, Java, AWS Services <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -55,7 +56,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
     </List>
-    <SectionText>Currently learning: GraphQL and TypeScript</SectionText>
+    {/* <SectionText>Currently learning: GraphQL and TypeScript</SectionText> */}
   </Section>
 );
 

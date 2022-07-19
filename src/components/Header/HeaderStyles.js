@@ -21,6 +21,7 @@ export const Container = styled.div`
 
 export const Span = styled.span`
   font-size: 2rem;
+  margin-left: 1em;
 `;
 
 export const Div1 = styled.div`
@@ -116,6 +117,7 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 // Social Icons (Container)
 export const SocialIcons = styled.a`
   transition: 0.3s ease;
+  margin: 0em 1em 0em 1em;
   color: white;
   border-radius: 50px;
   width: 3.5rem;
