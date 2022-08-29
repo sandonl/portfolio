@@ -14,11 +14,11 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Hi there! <br />
-        I'm Sandon, <br />a Full-Stack Developer from Melbourne
+        I'm Sandon, <br />a Developer from Melbourne
       </SectionTitle>
       <SectionText>
         I'm interested in building innovative projects, exploring the <br />
-        metaverse and learning Korean!
+        3D World and learning Korean!
       </SectionText>
       <Button
         onClick={() => window.open("https://github.com/sandonl", "_blank")}

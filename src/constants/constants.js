@@ -21,14 +21,34 @@ export const projects = [
     id: 1,
   },
   {
-    title: "OpenLingo",
+    title: "R3F Chair Display",
     description:
-      "An innovative online social learning platform developed to enable language learners share and view resources in their target language and skill level.",
-    image: "/images/openlingo.png",
-    tags: ["jinja", "Flask", "neo4j", "Figma"],
-    source: "https://github.com/jjkuang123/Technology-Innovation-Project",
-    visit: "https://www.youtube.com/watch?v=1f6BDFK9Fsg&t",
+      "An example product page that utilises react-three-fiber to present a hypothetical chair product",
+    image: "/images/r3f-demo.png",
+    tags: ["Three.js", "React", "R3F", "React-Spring", "Vite"],
+    source: "https://github.com/sandonl/r3f-display",
+    visit: "https://r3f-chair-sandonl.vercel.app/",
     id: 2,
+  },
+  {
+    title: "Journey Portal",
+    description:
+      "As part of the Three.js journey, a custom scene and model to create a game portal ",
+    image: "/images/threejsportal.png",
+    tags: ["Blender", "Three.js"],
+    source: "https://github.com/sandonl/threejs-portal",
+    visit: "https://threejs-sandonl-portal.vercel.app/",
+    id: 3,
+  },
+  {
+    title: "Headphones Display",
+    description:
+      "An example of using GSAP's ScrollTrigger to create a product page for headphones",
+    image: "/images/headphones.png",
+    tags: ["Three.js", "GSAP", "Vite"],
+    source: "https://github.com/sandonl/gsap-three",
+    visit: "https://headphones-gsap-three.vercel.app/",
+    id: 4,
   },
   {
     title: "Melbourne City Guide",
@@ -38,7 +58,7 @@ export const projects = [
     tags: ["React", "ChakraUI", "Mapbox", "Google Maps"],
     source: "https://github.com/erickteowarang/geom90007-assignment3",
     visit: "https://mystifying-jennings-d097dc.netlify.app/",
-    id: 3,
+    id: 5,
   },
 ];
 
