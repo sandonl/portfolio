@@ -25,10 +25,6 @@ const Technologies = () => (
   <Section id="tech">
     <SectionDivider style={{ marginBottom: "1em" }} />
     <SectionTitle style={{ marginTop: "2rem" }}>Technologies</SectionTitle>
-    {/* // I've worked with a range of technologies in web-app development including
-      // experience developing from the back-end (AWS Services, Node) to the
-      // front-end (React) as well as the design (Figma)
-      // <br /> */}
     <List>
       <ListItem>
         <DiReact size="3rem" style={{ alignSelf: "left" }} />
