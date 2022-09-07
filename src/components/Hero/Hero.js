@@ -14,7 +14,7 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Hi there! <br />
-        I'm Sandon, <br />a Developer from Melbourne
+        I'm Sandon, <br />a Full Stack Developer from Melbourne
       </SectionTitle>
       <SectionText>
         I'm interested in building innovative projects, exploring the <br />
