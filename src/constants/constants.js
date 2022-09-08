@@ -45,7 +45,7 @@ export const projects = [
     description:
       "An example of using custom shaders with Three.js and lil-gui to tune parameters to create custom effects",
     image: "/images/ragingsea.png",
-    tags: ["Three.js", "lil-gui"],
+    tags: ["Three.js", "lil-gui", "GLSL"],
     source: "https://github.com/sandonl/threejs-raging-sea",
     visit: "https://sandonl-raging-sea.vercel.app/",
     id: 4,
