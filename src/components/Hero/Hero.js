@@ -1,11 +1,9 @@
 import React from "react";
-import { headerImage } from "../../constants/constants";
 import {
   Section,
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import { HeaderImg } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 

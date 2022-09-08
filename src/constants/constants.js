@@ -30,26 +30,6 @@ export const projects = [
     visit: "https://r3f-chair-sandonl.vercel.app/",
     id: 2,
   },
-  // {
-  //   title: "Journey Portal",
-  //   description:
-  //     "As part of the Three.js journey, a custom scene and model to create a game portal ",
-  //   image: "/images/threejsportal.png",
-  //   tags: ["Blender", "Three.js"],
-  //   source: "https://github.com/sandonl/threejs-portal",
-  //   visit: "https://threejs-sandonl-portal.vercel.app/",
-  //   id: 3,
-  // },
-  // {
-  //   title: "Headphones Display",
-  //   description:
-  //     "An example of using GSAP's ScrollTrigger to create a product page for headphones",
-  //   image: "/images/headphones.png",
-  //   tags: ["Three.js", "GSAP", "Vite"],
-  //   source: "https://github.com/sandonl/gsap-three",
-  //   visit: "https://headphones-gsap-three.vercel.app/",
-  //   id: 4,
-  // },
   {
     title: "Melbourne City Guide",
     description:
@@ -58,7 +38,27 @@ export const projects = [
     tags: ["React", "ChakraUI", "Mapbox", "Google Maps"],
     source: "https://github.com/erickteowarang/geom90007-assignment3",
     visit: "https://mystifying-jennings-d097dc.netlify.app/",
-    id: 5,
+    id: 3,
+  },
+  {
+    title: "Raging Sea",
+    description:
+      "An example of using custom shaders with Three.js and lil-gui to tune parameters to create custom effects",
+    image: "/images/ragingsea.png",
+    tags: ["Three.js", "lil-gui"],
+    source: "https://github.com/sandonl/threejs-raging-sea",
+    visit: "https://sandonl-raging-sea.vercel.app/",
+    id: 4,
+  },
+  {
+    title: "Journey Portal",
+    description:
+      "As part of the Three.js journey, a custom scene and model to create a game portal ",
+    image: "/images/threejsportal.png",
+    tags: ["Blender", "Three.js"],
+    source: "https://github.com/sandonl/threejs-portal",
+    visit: "https://threejs-sandonl-portal.vercel.app/",
+    id: 4,
   },
 ];
 
