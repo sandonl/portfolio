@@ -58,7 +58,7 @@ const Header = () => (
       >
         <AiFillLinkedin size="2.5rem" />
       </SocialIcons>
-      <SocialIcons href="sandonl@outlook.com.au">
+      <SocialIcons href="mailto:sandonnlai@gmail.com">
         <AiFillMail size="2.5rem" />
       </SocialIcons>
     </Div3>
