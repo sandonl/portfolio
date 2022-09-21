@@ -1,25 +1,16 @@
 export const heroImage = "images/header.png";
 export const projects = [
   {
-    title: "SelfCare",
+    title: "Munjang",
     description:
-      "An android app that enhances personal self-care and utilises AR technology to engage the user with the outside world",
-    image: "/images/selfcare.png",
-    tags: ["Kotlin", "Jetpack Compose", "ARCore", "Firebase"],
-    source: "https://github.com/sandonl/COMP90018-selfcare-app",
-    visit: "https://www.youtube.com/watch?v=GPYu5J2qS6I&t",
+      "A full stack, spaced repetition system (SRS) web application that enables users to learn Korean through daily reviews and user- made flashcards. ",
+    image: "/images/munjang.png",
+    tags: ["React", "TypeScript", "tRPC", "Tailwind", "Prisma"],
+    source: "https://github.com/sandonl/munjang",
+    visit: "https://munjanglearn.vercel.app/",
     id: 0,
   },
-  {
-    title: "SL Reddit",
-    description:
-      "A fullstack Reddit-inspired post sharing site that utilises React, ChakraUI, TypeScript, GraphQL and more",
-    image: "/images/slreddit.png",
-    tags: ["React", "GraphQL", "TypeScript", "PostgreSQL", "Redis"],
-    source: "https://github.com/sandonl/sl-redditserver",
-    visit: "https://sandonl.com",
-    id: 1,
-  },
+
   {
     title: "R3F Chair Display",
     description:
@@ -28,16 +19,26 @@ export const projects = [
     tags: ["Three.js", "React", "R3F", "React-Spring", "Vite"],
     source: "https://github.com/sandonl/r3f-display",
     visit: "https://r3f-chair-sandonl.vercel.app/",
+    id: 1,
+  },
+  {
+    title: "SelfCare",
+    description:
+      "An android app that enhances personal self-care and utilises AR technology to engage the user with the outside world",
+    image: "/images/selfcare.png",
+    tags: ["Kotlin", "Jetpack Compose", "ARCore", "Firebase"],
+    source: "https://github.com/sandonl/COMP90018-selfcare-app",
+    visit: "https://www.youtube.com/watch?v=GPYu5J2qS6I&t",
     id: 2,
   },
   {
-    title: "Melbourne City Guide",
+    title: "SL Reddit",
     description:
-      "A visualisation that targets new tourists of Melbourne to plan their visits with better ease and to account for a better holistic visiting experience.",
-    image: "/images/MelbourneGuide.png",
-    tags: ["React", "ChakraUI", "Mapbox", "Google Maps"],
-    source: "https://github.com/erickteowarang/geom90007-assignment3",
-    visit: "https://mystifying-jennings-d097dc.netlify.app/",
+      "A fullstack Reddit-inspired post sharing site that utilises React, ChakraUI, TypeScript, GraphQL and more",
+    image: "/images/slreddit.png",
+    tags: ["React", "GraphQL", "TypeScript", "PostgreSQL"],
+    source: "https://github.com/sandonl/sl-redditserver",
+    visit: "https://sandonl.com",
     id: 3,
   },
   {
@@ -53,12 +54,12 @@ export const projects = [
   {
     title: "Journey Portal",
     description:
-      "As part of the Three.js journey, a custom scene and model to create a game portal ",
+      "As part of the Three.js journey with Bruno Simon, a custom scene and model to create a game portal ",
     image: "/images/threejsportal.png",
     tags: ["Blender", "Three.js"],
     source: "https://github.com/sandonl/threejs-portal",
     visit: "https://threejs-sandonl-portal.vercel.app/",
-    id: 4,
+    id: 5,
   },
 ];
 
