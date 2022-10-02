@@ -42,15 +42,51 @@ export const Div2 = styled.div`
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
+
+export const HamburgerMenu = styled.div`
+  display: none;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    grid-area: 1 / 5 / 2 / 6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 20;
+  }
+`;
+
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    align-items: center;
-    grid-area: 1 / 4 / 2 / 6;
+    display: none;
   }
+`;
+
+export const Menu = styled.div`
+  display: none;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100vw;
+    height: 20rem;
+    position: absolute;
+    left: 0;
+    top: 9rem;
+    background: #0f1624;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+`;
+
+export const MenuStyle = styled.a`
+  text-decoration: none;
+  color: white;
+  width: 50vw;
+  padding: 0.7rem;
 `;
 
 // Navigation Links

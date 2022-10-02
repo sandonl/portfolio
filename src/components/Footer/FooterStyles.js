@@ -48,12 +48,12 @@ export const SocialIconsContainer = styled.div`
   justify-content: space-between;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    display: flex;
+    display: none;
     justify-content: space-between;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    display: flex;
+    display: none;
     width: 100%;
     flex-direction: column;
   }
