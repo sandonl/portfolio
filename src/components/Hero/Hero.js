@@ -20,9 +20,9 @@ const Hero = (props) => (
         3D World and learning Korean!
       </SectionText>
       <Button
-        onClick={() => window.open("https://github.com/sandonl", "_blank")}
+        onClick={() => window.open("https://sandonl.vercel.app/", "_blank")}
       >
-        My GitHub
+        New Portfolio!
       </Button>
     </LeftSection>
   </Section>
