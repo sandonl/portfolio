@@ -8,20 +8,31 @@ import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
 import { heroImage } from "../constants/constants";
 import { HeroImg } from "../components/Hero/HeroStyles";
+import { NewModal } from "../layout/NewModal";
+import { useState } from "react";
 
 const Home = () => {
+  const [showModal, setShowModal] = useState(true);
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
   return (
-    <Layout>
-      <Section grid style={{ overflow: "visible" }}>
-        <Hero />
-        <HeroImg src={heroImage} />
-        <BgAnimation />
-      </Section>
-      <Projects />
-      {/* <Technologies /> */}
-      {/* <Timeline /> */}
-      {/* <Acomplishments /> */}
-    </Layout>
+    <>
+      {showModal && <NewModal closeModal={closeModal} />}
+      <Layout>
+        <Section grid style={{ overflow: "hidden" }}>
+          <Hero />
+          <HeroImg src={heroImage} />
+          <BgAnimation />
+        </Section>
+        <Projects />
+        {/* <Technologies /> */}
+        {/* <Timeline /> */}
+        {/* <Acomplishments /> */}
+      </Layout>
+    </>
   );
 };
 
