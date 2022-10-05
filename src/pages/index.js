@@ -22,7 +22,7 @@ const Home = () => {
     <>
       {showModal && <NewModal closeModal={closeModal} />}
       <Layout>
-        <Section grid style={{ overflow: "hidden" }}>
+        <Section grid style={{ overflow: "visible" }}>
           <Hero />
           <HeroImg src={heroImage} />
           <BgAnimation />
