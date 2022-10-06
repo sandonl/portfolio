@@ -7,6 +7,7 @@ export const Container = styled.div`
 `;
 
 export const Modal = styled.div`
+  color: black;
   position: absolute;
   z-index: 200;
   width: 100vw;
@@ -44,7 +45,7 @@ export const ModalLink = styled.a`
 
 export const ModalButton = styled.button`
   all: unset;
-  color: #ffffff;
+  color: black;
   font-size: 1.3rem;
   margin-top: 2rem;
   border-radius: 5px;
